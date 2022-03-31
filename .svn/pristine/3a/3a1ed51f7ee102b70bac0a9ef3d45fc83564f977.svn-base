@@ -1,0 +1,996 @@
+2020-10-16 15:11:43,405 INFO File SDM/xSDM/src/xSDM.py, in main, line 77: Inicio aplicacion
+2020-10-16 15:12:18,388 INFO File SDM/xSDM/src/xSDM.py, in main, line 77: Inicio aplicacion
+2020-10-16 15:14:54,484 INFO File SDM/xSDM/src/xSDM.py, in main, line 76: Inicio aplicacion
+2020-10-16 15:15:12,346 INFO File SDM/xSDM/src/xSDM.py, in main, line 76: Inicio aplicacion
+2020-10-16 15:15:13,243 INFO File /home/scernud/SDM/xSDM/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-20 11:14:03,243 INFO File SDM/xSDM/src/xSDM.py, in main, line 76: Inicio aplicacion
+2020-10-20 11:14:05,716 DEBUG File /home/scernud/SDM/xSDM/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-20 11:15:04,616 INFO File SDM/xSDM/src/xSDM.py, in main, line 76: Inicio aplicacion
+2020-10-20 11:15:06,100 DEBUG File /home/scernud/SDM/xSDM/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-20 11:21:26,348 INFO File SDM/xSDM/src/xSDM.py, in main, line 77: Inicio aplicacion
+2020-10-20 11:21:29,771 DEBUG File /home/scernud/SDM/xSDM/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-20 11:21:44,928 INFO File SDM/xSDM/src/xSDM.py, in main, line 77: Inicio aplicacion
+2020-10-20 11:21:45,997 DEBUG File /home/scernud/SDM/xSDM/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-20 11:30:46,315 INFO File SDM/xSDM/src/xSDM.py, in main, line 77: Inicio aplicacion
+2020-10-20 11:30:57,681 DEBUG File /home/scernud/SDM/xSDM/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-20 11:32:59,512 INFO File SDM/xSDM/src/xSDM.py, in main, line 87: Inicio aplicacion
+2020-10-20 11:33:01,270 DEBUG File /home/scernud/SDM/xSDM/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-21 09:00:17,548 INFO File SDM/xSDM/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-21 09:00:20,119 DEBUG File /home/scernud/SDM/xSDM/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:08:18,303 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:08:56,552 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:08:58,095 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:26:04,341 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:26:06,466 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:32:30,240 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:32:33,371 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:32:34,327 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:35:07,200 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:35:08,908 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:37:49,828 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:37:51,239 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:43:17,587 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:43:19,259 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:43:55,118 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:43:56,302 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:44:17,879 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:44:19,199 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:45:52,797 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:45:54,117 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:47:05,112 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:47:06,373 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:47:27,608 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:47:28,714 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:47:57,329 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:47:58,577 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:50:29,575 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:50:31,659 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:51:15,810 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:51:16,957 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:55:25,295 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:55:26,075 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 10:57:38,943 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 10:57:39,568 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 11:00:25,363 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 11:00:26,169 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 11:01:27,399 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 11:01:28,234 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 11:02:08,443 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 11:02:10,523 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 11:03:12,723 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 11:03:13,424 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 12:05:21,324 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:05:22,190 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 12:10:02,418 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:10:04,103 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 12:32:09,753 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:32:11,365 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 12:32:39,097 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:32:40,060 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 12:37:09,778 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:37:10,258 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 12:39:23,321 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:41:00,567 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:44:04,271 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:49:30,848 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:50:03,373 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:51:32,428 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:56:33,570 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 12:56:34,541 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:07:18,775 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:07:19,684 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:07:45,863 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:07:46,805 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:08:14,066 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:08:15,442 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:09:02,541 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:09:03,288 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:09:53,965 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:09:54,562 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:10:17,681 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:10:18,513 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:11:23,828 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:11:24,400 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:12:58,664 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:12:59,826 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:13:34,779 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:13:35,405 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:15:06,200 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:15:06,663 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:15:23,627 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:15:25,074 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:16:39,518 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:16:40,650 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:17:38,525 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:17:39,279 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:18:21,126 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:18:21,673 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:21:38,558 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:21:39,113 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:22:31,314 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:22:32,017 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:22:51,581 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:23:27,839 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:25:21,565 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:25:22,572 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:26:26,554 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 13:26:27,084 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 13:27:12,935 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 14:49:40,782 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 14:50:13,922 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 14:52:51,461 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 14:53:23,726 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 14:53:49,183 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 14:54:36,625 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 14:57:07,532 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 14:57:08,413 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 19: Usuario php: scernud Usuario OS: scernud
+2020-10-22 15:10:00,107 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 15:15:10,708 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 15:20:42,796 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 15:20:44,009 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 24: Usuario php: scernud Usuario OS: scernud
+2020-10-22 15:22:19,813 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 15:22:21,312 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 25: Usuario php: scernud Usuario OS: scernud
+2020-10-22 15:22:45,486 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 15:22:46,895 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 25: Usuario php: scernud Usuario OS: scernud
+2020-10-22 15:27:19,824 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 15:27:21,017 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 20: Usuario php: scernud Usuario OS: scernud
+2020-10-22 15:28:34,071 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-22 15:28:35,465 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 25: Usuario php: scernud Usuario OS: scernud
+2020-10-26 09:31:28,616 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 09:31:29,961 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 25: Usuario php: scernud Usuario OS: scernud
+2020-10-26 09:34:17,761 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 09:34:24,218 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 25: Usuario php: scernud Usuario OS: scernud
+2020-10-26 10:49:56,355 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 10:53:00,782 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 10:56:05,382 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 10:57:48,313 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 10:58:10,536 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 10:58:12,893 INFO File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: Welcome scernud<br />You are  years old.
+2020-10-26 11:02:33,590 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 11:02:34,782 INFO File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-26 11:02:34,783 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 50: Usuario php: scernud Usuario OS: scernud
+2020-10-26 14:45:02,844 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 14:49:46,646 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 14:49:48,149 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-26 14:49:48,150 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-26 15:12:15,102 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 15:12:16,493 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <br />
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function ereg() in /home/scernud/apps/httpd-2.4.46/htdocs/Login/loginPKI.php:8
+Stack trace:
+#0 {main}
+  thrown in <b>/home/scernud/apps/httpd-2.4.46/htdocs/Login/loginPKI.php</b> on line <b>8</b><br />
+
+2020-10-26 15:13:30,305 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 15:13:31,861 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: array(1) {
+  [0]=>
+  string(24) "X-Powered-By: PHP/7.4.11"
+}
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-26 15:15:00,531 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 15:15:01,991 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: Host: leslie:8433 <br />
+User-Agent: python-requests/2.20.0 <br />
+Accept-Encoding: gzip, deflate <br />
+Accept: */* <br />
+Connection: keep-alive <br />
+Content-Type: application/x-www-form-urlencoded <br />
+Authorization: token <token> <br />
+Content-Length: 24 <br />
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-26 15:16:41,772 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-26 15:16:42,670 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-26 15:16:42,671 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-27 09:17:16,356 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-27 09:17:19,568 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-27 09:17:19,568 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 13:13:52,943 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:14:17,081 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:17:32,516 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:25:44,060 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:29:04,897 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:30:26,996 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:31:13,013 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:31:16,318 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 13:31:16,319 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 13:32:36,529 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:32:37,766 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 13:32:37,767 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 13:33:11,446 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:33:12,964 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 13:33:12,965 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 13:33:25,216 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:33:26,537 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 13:33:26,538 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 13:35:09,121 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:35:10,399 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 13:35:10,401 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 13:37:43,572 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:37:45,195 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 13:37:45,196 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 13:44:38,137 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:44:39,554 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 13:44:39,555 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 13:45:53,942 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:45:55,571 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 13:45:55,571 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 13:46:04,956 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:46:06,197 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 13:46:06,198 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 13:47:03,095 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:47:04,638 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 13:47:04,638 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 13:49:16,960 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 13:49:25,344 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 13:49:25,345 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 14:08:39,761 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 14:08:41,050 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 14:08:41,050 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 14:09:42,473 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 14:09:45,996 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 14:09:45,996 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 14:12:01,933 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 14:12:03,681 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 14:12:03,682 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 14:19:30,550 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 14:19:36,767 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 14:55:48,002 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 14:55:49,773 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 14:55:49,774 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 14:59:22,559 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 14:59:25,939 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 14:59:25,940 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 15:15:52,033 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 92: Inicio aplicacion
+2020-10-28 15:15:53,549 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 15:15:53,551 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 15:19:13,418 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 95: Inicio aplicacion
+2020-10-28 15:19:15,200 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 15:19:15,201 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 15:20:29,840 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 97: Inicio aplicacion
+2020-10-28 15:20:38,167 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 15:20:38,168 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 15:20:55,223 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 97: Inicio aplicacion
+2020-10-28 15:20:56,763 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 15:20:56,764 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 15:21:00,396 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-28 15:21:50,525 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 97: Inicio aplicacion
+2020-10-28 15:21:59,938 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-28 15:23:02,720 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 97: Inicio aplicacion
+2020-10-28 15:23:17,524 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-28 15:23:28,590 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-28 15:23:54,005 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 97: Inicio aplicacion
+2020-10-28 15:25:43,118 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 97: Inicio aplicacion
+2020-10-28 15:25:44,659 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 15:25:44,660 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 15:26:14,823 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 97: Inicio aplicacion
+2020-10-28 15:29:01,825 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 97: Inicio aplicacion
+2020-10-28 15:29:04,473 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 15:29:04,474 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 15:30:44,064 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 97: Inicio aplicacion
+2020-10-28 15:30:45,261 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 15:30:45,261 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 15:30:47,241 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-28 15:32:21,131 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 98: Inicio aplicacion
+2020-10-28 15:32:30,672 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 15:32:30,673 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 15:32:32,316 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-28 15:34:14,874 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-28 15:34:22,436 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 15:34:22,437 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 15:34:24,568 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-28 15:34:25,626 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_destroy, line 48: 
+2020-10-28 15:34:30,247 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-28 15:35:03,935 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-28 15:35:05,419 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-28 15:35:05,420 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-28 15:35:07,049 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-28 15:35:08,037 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_destroy, line 48: 
+2020-10-28 15:35:09,824 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-28 15:35:13,148 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_destroy, line 48: 
+2020-10-28 15:35:14,626 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-28 15:35:16,228 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_destroy, line 48: 
+2020-10-29 09:51:55,647 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-29 09:51:58,402 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-29 09:51:58,403 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-29 10:16:27,021 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-29 10:16:37,249 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-29 10:16:37,250 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-29 10:27:27,781 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-29 10:27:29,398 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-29 10:27:29,399 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-29 10:28:11,071 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-29 10:28:12,336 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-29 10:28:12,337 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-29 10:30:38,453 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-29 10:30:41,773 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-29 10:30:41,774 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:34:54,329 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:34:56,162 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:34:56,162 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:35:42,944 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:35:44,603 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:35:44,604 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:36:30,006 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:36:31,233 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:36:31,234 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:37:09,128 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:37:15,140 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:37:15,140 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:37:43,629 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:37:44,325 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:37:44,327 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:38:07,921 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:38:13,293 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:38:13,293 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:38:37,654 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:38:38,929 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:38:38,930 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:39:00,453 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:39:02,068 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:39:02,069 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:39:17,572 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:39:18,665 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:39:18,666 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:39:33,168 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:39:33,918 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:39:33,919 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:39:55,849 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:39:56,407 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:39:56,407 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:40:55,243 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:40:57,132 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:40:57,133 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 08:41:34,492 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 08:41:35,046 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 08:41:35,047 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 09:32:35,938 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 104: Inicio aplicacion
+2020-10-30 09:32:37,529 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 09:32:37,530 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 09:33:05,842 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 42: 
+2020-10-30 09:33:14,676 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_hide, line 48: 
+2020-10-30 10:04:28,311 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:04:29,601 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:04:29,602 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:05:11,814 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:05:13,143 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:05:13,143 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:06:39,385 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:06:39,959 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:06:39,961 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:07:55,166 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:07:55,758 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:07:55,759 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:09:30,554 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:09:31,495 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:09:31,496 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:11:01,968 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:11:05,361 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:11:05,362 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:11:27,231 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:11:29,751 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:11:29,753 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:12:39,055 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:12:41,162 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:12:41,163 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:14:25,711 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:14:27,990 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:14:27,991 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:15:32,224 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:15:33,491 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:15:33,493 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:16:50,953 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:17:00,184 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:17:00,185 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:18:24,156 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:18:24,622 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:18:24,623 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:18:46,830 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 110: Inicio aplicacion
+2020-10-30 10:18:47,937 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:18:47,937 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:20:04,294 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 115: Inicio aplicacion
+2020-10-30 10:20:05,244 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:20:05,244 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:21:34,270 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 116: Inicio aplicacion
+2020-10-30 10:21:35,970 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:21:35,971 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:23:12,347 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 116: Inicio aplicacion
+2020-10-30 10:23:14,916 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:23:14,917 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 52: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:24:46,154 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 113: Inicio aplicacion
+2020-10-30 10:24:53,803 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 113: Inicio aplicacion
+2020-10-30 10:24:55,719 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 10:24:55,719 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in __init__, line 52: Usuario php: scernud Usuario OS: scernud
+2020-10-30 10:36:54,371 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 116: Inicio aplicacion
+2020-10-30 10:37:40,082 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 116: Inicio aplicacion
+2020-10-30 10:38:04,075 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 116: Inicio aplicacion
+2020-10-30 10:38:52,383 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 116: Inicio aplicacion
+2020-10-30 10:40:46,941 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 116: Inicio aplicacion
+2020-10-30 10:42:51,459 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 116: Inicio aplicacion
+2020-10-30 10:46:37,332 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 117: Inicio aplicacion
+2020-10-30 10:48:20,930 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 117: Inicio aplicacion
+2020-10-30 10:48:25,552 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 117: Inicio aplicacion
+2020-10-30 10:49:56,159 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 117: Inicio aplicacion
+2020-10-30 10:53:10,052 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 117: Inicio aplicacion
+2020-10-30 10:58:34,902 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 117: Inicio aplicacion
+2020-10-30 10:59:00,234 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 117: Inicio aplicacion
+2020-10-30 11:00:22,294 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 117: Inicio aplicacion
+2020-10-30 11:00:38,914 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 117: Inicio aplicacion
+2020-10-30 11:01:53,589 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 118: Inicio aplicacion
+2020-10-30 11:02:55,765 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 118: Inicio aplicacion
+2020-10-30 11:04:57,191 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 118: Inicio aplicacion
+2020-10-30 11:05:37,785 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 118: Inicio aplicacion
+2020-10-30 11:07:34,697 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 118: Inicio aplicacion
+2020-10-30 11:08:38,047 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 119: Inicio aplicacion
+2020-10-30 11:10:05,553 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 119: Inicio aplicacion
+2020-10-30 11:13:06,181 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 119: Inicio aplicacion
+2020-10-30 11:15:17,436 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 121: Inicio aplicacion
+2020-10-30 11:19:03,278 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 11:19:16,980 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 11:19:47,229 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 11:19:51,935 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 59: 
+2020-10-30 11:20:01,355 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_hide, line 65: 
+2020-10-30 11:20:36,006 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 11:20:39,159 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 59: 
+2020-10-30 11:20:41,329 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_hide, line 65: 
+2020-10-30 11:21:56,923 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 11:21:59,611 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 59: 
+2020-10-30 11:22:00,761 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_hide, line 65: 
+2020-10-30 11:23:10,757 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 123: Inicio aplicacion
+2020-10-30 11:23:16,412 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 59: 
+2020-10-30 11:23:20,357 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_hide, line 65: 
+2020-10-30 11:24:06,199 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 123: Inicio aplicacion
+2020-10-30 11:24:09,673 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 59: 
+2020-10-30 11:24:10,542 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_hide, line 65: 
+2020-10-30 11:24:42,624 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 123: Inicio aplicacion
+2020-10-30 11:24:44,318 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 11:24:44,319 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 11:24:46,505 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 59: 
+2020-10-30 11:24:49,475 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_hide, line 65: 
+2020-10-30 11:25:44,603 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 11:25:45,460 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 11:25:45,462 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 11:25:47,598 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 59: 
+2020-10-30 11:25:53,891 INFO File SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 59: 
+2020-10-30 11:26:14,320 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 11:26:17,683 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 59: 
+2020-10-30 11:27:09,457 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 11:27:41,806 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 11:27:45,407 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in gtk_widget_show, line 59: 
+2020-10-30 14:02:07,027 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 14:02:08,203 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 14:02:08,204 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 14:05:32,333 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 14:05:34,665 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 14:05:34,666 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 14:06:15,832 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 14:06:17,323 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 14:06:17,324 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 14:07:41,268 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 14:07:43,103 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 14:07:43,104 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 14:08:06,698 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 14:08:08,704 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 14:08:08,705 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 14:08:54,698 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 14:08:55,899 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 14:08:55,900 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 14:15:54,669 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 14:15:56,528 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 14:15:56,529 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 14:47:09,662 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 14:47:14,299 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 14:47:15,345 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 14:47:15,345 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 14:50:16,854 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 14:50:18,478 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 14:50:18,478 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 14:51:04,553 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 14:55:16,903 INFO File /home/scernud/SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 15:02:27,901 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 15:02:30,294 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 15:02:30,294 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 15:03:03,614 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 15:03:05,647 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 15:03:05,647 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 15:03:40,637 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 15:03:42,664 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 15:03:42,665 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud
+2020-10-30 15:16:54,917 INFO File SDM/SSDM Client/src/xSDM.py, in main, line 124: Inicio aplicacion
+2020-10-30 15:16:56,181 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-10-30 15:16:56,182 DEBUG File /home/scernud/SDM/SSDM Client/src/Soft/Login.py, in login, line 54: Usuario php: scernud Usuario OS: scernud

@@ -1,0 +1,64 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.18f:$
+Arch:x86_64-gcc3:$
+
+[PLUGINS]
+librhythmbox-itms-detection-plugin.so:$
+/usr/lib64/mozilla/plugins/librhythmbox-itms-detection-plugin.so:$
+:$
+1488465645000:0:0:0:$
+This plug-in detects the presence of iTunes when opening iTunes Store URLs in a web page with Firefox.:$
+iTunes Application Detector:$
+1
+0:application/itunes-plugin:::$
+libnpjp2.so:$
+/usr/java/jdk-10.0.1/lib/libnpjp2.so:$
+13.0.1.0:$
+1522113444000:0:0:0:$
+Next Generation Java Plug-in 13.0.1.0 for Mozilla browsers:$
+Java(TM) Plug-in 13.0.1.0:$
+40
+0:application/x-java-vm:Javaâ„¢ Plug-in::$
+1:application/x-java-applet:Javaâ„¢ Plug-in Applet::$
+2:application/x-java-bean:Javaâ„¢ Plug-in JavaBeans::$
+3:application/x-java-applet;version=1.1:Javaâ„¢ Plug-in::$
+4:application/x-java-bean;version=1.1:Javaâ„¢ Plug-in::$
+5:application/x-java-applet;version=1.1.1:Javaâ„¢ Plug-in::$
+6:application/x-java-bean;version=1.1.1:Javaâ„¢ Plug-in::$
+7:application/x-java-applet;version=1.1.2:Javaâ„¢ Plug-in::$
+8:application/x-java-bean;version=1.1.2:Javaâ„¢ Plug-in::$
+9:application/x-java-applet;version=1.1.3:Javaâ„¢ Plug-in::$
+10:application/x-java-bean;version=1.1.3:Javaâ„¢ Plug-in::$
+11:application/x-java-applet;version=1.2:Javaâ„¢ Plug-in::$
+12:application/x-java-bean;version=1.2:Javaâ„¢ Plug-in::$
+13:application/x-java-applet;version=1.2.1:Javaâ„¢ Plug-in::$
+14:application/x-java-bean;version=1.2.1:Javaâ„¢ Plug-in::$
+15:application/x-java-applet;version=1.2.2:Javaâ„¢ Plug-in::$
+16:application/x-java-bean;version=1.2.2:Javaâ„¢ Plug-in::$
+17:application/x-java-applet;version=1.3:Javaâ„¢ Plug-in::$
+18:application/x-java-bean;version=1.3:Javaâ„¢ Plug-in::$
+19:application/x-java-applet;version=1.3.1:Javaâ„¢ Plug-in::$
+20:application/x-java-bean;version=1.3.1:Javaâ„¢ Plug-in::$
+21:application/x-java-applet;version=1.4:Javaâ„¢ Plug-in::$
+22:application/x-java-bean;version=1.4:Javaâ„¢ Plug-in::$
+23:application/x-java-applet;version=1.4.1:Javaâ„¢ Plug-in::$
+24:application/x-java-bean;version=1.4.1:Javaâ„¢ Plug-in::$
+25:application/x-java-applet;version=1.4.2:Javaâ„¢ Plug-in::$
+26:application/x-java-bean;version=1.4.2:Javaâ„¢ Plug-in::$
+27:application/x-java-applet;version=1.5:Javaâ„¢ Plug-in::$
+28:application/x-java-bean;version=1.5:Javaâ„¢ Plug-in::$
+29:application/x-java-applet;version=1.6:Javaâ„¢ Plug-in::$
+30:application/x-java-bean;version=1.6:Javaâ„¢ Plug-in::$
+31:application/x-java-applet;version=1.7:Javaâ„¢ Plug-in::$
+32:application/x-java-bean;version=1.7:Javaâ„¢ Plug-in::$
+33:application/x-java-applet;version=1.8:Javaâ„¢ Plug-in::$
+34:application/x-java-bean;version=1.8:Javaâ„¢ Plug-in::$
+35:application/x-java-applet;version=9:Javaâ„¢ Plug-in::$
+36:application/x-java-bean;version=9:Javaâ„¢ Plug-in::$
+37:application/x-java-applet;deploy=13.0.1.0:Javaâ„¢ Plug-in::$
+38:application/x-java-applet;javafx=javafx_runtime_version:Javaâ„¢ Plug-in::$
+39:application/x-java-vm-npruntime:Javaâ„¢ Plug-in::$
+
+[INVALID]

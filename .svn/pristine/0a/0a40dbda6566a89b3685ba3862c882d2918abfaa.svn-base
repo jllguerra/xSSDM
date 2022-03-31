@@ -1,0 +1,32 @@
+class User:
+
+    def __init__(self,userid):    
+        self.username=userid
+        self.Projects=[]
+ #       self.Roles=[]
+        self.Profile=[]
+#        self.storageWS=""
+
+
+    def getProjectID (self,projectname):
+        for proj in self.Projects:
+            if projectname==proj[0]:
+                return proj[1]
+        return ""
+    
+    def getTipoChild (self,tipoParent):
+        dict={}
+        dict["root"]="Disciplina"
+        dict["Disciplina"]="Subdisciplina"
+        dict["Subdisciplina"]="LoadCase"
+        dict["LoadCase"]="Simulacion"
+        dict["Simulacion"]=""
+        return dict[tipoParent]
+    
+    def cargaProjects (self):
+        for role in self.Profile['roles'].values():
+            proj=[]
+            proj.append(role['projectname'])
+            proj.append(role['projectid'])
+            if proj not in self.Projects:
+                self.Projects.append(proj)

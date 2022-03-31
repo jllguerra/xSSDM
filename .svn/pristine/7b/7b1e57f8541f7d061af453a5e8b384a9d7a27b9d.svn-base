@@ -1,0 +1,22 @@
+#Import the modules
+import gi
+from Soft.XMLFunctions import XMLFunctions
+from Soft.User import User
+gi.require_version('Gtk', '3.0')
+from httpdclient import httpdclient
+from Config.config import *
+import urllib.parse
+
+class Server:
+    
+    def login (self,User):   
+      
+        #conn = httpdclient.httpdclient(URL_SERVER_SDM, User.username, User.passwd)
+        conn = httpdclient.httpdclient(User.username, "cae12345")
+        #conn.execAPIfunction("conectar" + '/Login/loginPKI.php')
+        conn.execAPIfunction("conectar", dict())
+        return conn    
+        
+    def getUserProjects (self,User):
+        xml = User.conn.execAPIfunction("getUserProjects", dict())
+        return xml

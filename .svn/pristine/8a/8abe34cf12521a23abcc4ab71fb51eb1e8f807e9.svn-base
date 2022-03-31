@@ -1,0 +1,117 @@
+#Import the modules
+import gi
+import string
+gi.require_version('Gtk', '3.0')
+#from gi.repository import Gtk, Vte
+from gi.repository import Gtk
+from gi.repository import GObject
+import os
+from pathlib import Path
+import inspect;
+import logging
+import sys, getopt
+from Soft.XMLFunctions import XMLFunctions
+from FileTransfer.SimFiles import SimFiles
+
+#import urllib2
+
+class Simulacion:
+
+    def __init__(self,xsdm):    
+        self.ID=""
+        self.Filename=""
+        self.Proyecto=""
+        self.Tipo=""
+        self.Fase=""
+        self.Disciplina=""
+        self.Subdisciplina=""
+        self.LoadCase=""
+
+    def readCabecera(self,file):
+        start=0
+        error=0
+        input=0
+        
+        for line in file:
+#            print (line.strip())
+            if "$<Import>" in line and not start: 
+                start=1
+                continue
+            if "$  <Input>" in line and start: 
+                input=1
+                continue
+            if "$    <Discipline>" in line and input:
+                line=line.strip()
+                list=line.split("$    <Discipline>")
+                list=list[1].split("</Discipline>")
+                if len(list) == 2: 
+                    self.Disciplina=list[0]
+                    print(self.Disciplina)
+                    continue
+            if "$    <LoadCase>" in line and input:
+                line=line.strip()
+                list=line.split("$    <LoadCase>")
+                list=list[1].split("</LoadCase>")
+                if len(list) == 2: 
+                    self.LoadCase=list[0]
+                    print(self.LoadCase)
+                    continue
+            if "$    <ModelPhase>" in line and input:
+                line=line.strip()
+                list=line.split("$    <ModelPhase>")
+                list=list[1].split("</ModelPhase>")
+                if len(list) == 2: 
+                    self.Fase=list[0]
+                    print(self.Fase)
+                    continue
+            if "$    <Project>" in line and input:
+                line=line.strip()
+                list=line.split("$    <Project>")
+                list=list[1].split("</Project>")
+                if len(list) == 2: 
+                    self.Proyecto=list[0]
+                    print(self.Proyecto)
+                    continue
+            if "$    <SourceType>" in line and input:
+                line=line.strip()
+                list=line.split("$    <SourceType>")
+                list=list[1].split("</SourceType>")
+                if len(list) == 2: 
+                    self.Tipo=list[0]
+                    print(self.Tipo)
+                    continue
+            if "$    <SubDiscipline>" in line and input:
+                line=line.strip()
+                list=line.split("$    <SubDiscipline>")
+                list=list[1].split("</SubDiscipline>")
+                if len(list) == 2: 
+                    self.Subdisciplina=list[0]
+                    print(self.Subdisciplina)
+                    continue
+            if "$  </Input>" in line and input and start: 
+                input = 0  
+                continue
+            if "$</Import>" in line and start and not input: 
+                start=0
+                break
+        if start or input: error=1
+        file.close()
+        return error 
+                    
+
+
+        
+
+#===============================================================================
+#     tree = ElementTree.fromstring(response.content)
+# 
+# #  or, if the response is particularly large, use an incremental approach:
+# 
+#     response = requests.get(url, stream=True)
+# # if the server sent a Gzip or Deflate compressed response, decompress
+# # as we read the raw stream:
+#     response.raw.decode_content = True
+# 
+#     events = ElementTree.iterparse(response.raw)
+#     for event, elem in events:
+#        # do something with `elem`

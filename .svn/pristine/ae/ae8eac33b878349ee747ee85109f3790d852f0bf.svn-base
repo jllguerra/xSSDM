@@ -1,0 +1,45 @@
+/* background-color */
+/* background-image */
+/* color */
+/* border-color */
+/* border-image */
+/* border-radius */
+/* border-width */
+/* border-style */
+/* padding */
+/* margin */
+/* transition */
+/* https://thegnomejournal.wordpress.com/2011/03/15/styling-gtk-with-css/ */
+
+* {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+
+}
+/* .window,.dialog { */
+/*     background: #ffffff; */
+/* } */
+.button {
+	font-size: 20px;
+	background-color: #d3d7cf;
+	/*outline-color: #cc0000;*/
+}
+/* .combo { */
+/* 	background: #ffffff; */
+/* } */
+.label-title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ef2929;
+}
+.status_bar {
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+	color: #000000;
+}
+.editLabel {
+	background-color: #faf4bc;		
+}
+/* .label-menu { */
+/* 	color: #fcaf3e; */
+/* } */

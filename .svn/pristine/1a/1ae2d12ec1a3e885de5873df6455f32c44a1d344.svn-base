@@ -1,0 +1,64 @@
+from Soft.Server import Server
+from Soft.User import User
+
+class DB:
+
+    def __init__(self):    
+        self.Projects=[]
+        self.Tipos=[]
+        self.Fases=[]
+        self.Disciplinas=[]
+        self.Subdisciplinas=[]
+        self.LoadCases=[]
+    
+    # cargaUserProjects: Dado un XML de Proyectos carga en una lista los Proyectos a los que tiene permisos
+    def cargaUserProjects(self,User):
+        # Cargar de la DB los posibles proyectos
+        #UserProjectsXML = Server.getUserProjects(User)
+        User.Projects = [
+            "Projects1",
+            "Projects2",
+            "Projects3",
+            "Projects4",
+            "Projects5"
+            ]
+        
+    def cargaTipos(self):
+        #TiposXML = Server.getTipos(xsdm)
+        self.Tipos = [
+            "Type1",
+            "Type2",
+            "Type3"
+            ]
+                   
+    def cargaFases(self):
+        #FasesXML = Server.getFase(xsdm)
+        self.Fases = [
+            "Fases1",
+            "Fases2",
+            "Fases3"
+            ]
+       
+    def cargaDisciplinas(self):
+        #DisciplinasXML = Server.getDisciplinas(xsdm)
+        self.Disciplinas = [
+            "Disciplinas1",
+            "Disciplinas2",
+            "Disciplinas3"
+            ]
+
+    def cargaSubdisciplinas(self):
+        #SubdisciplinasXML = Server.getSubdisciplinas(xsdm)
+        self.Subdisciplinas = [
+            "Subdisciplinas1",
+            "Subdisciplinas2",
+            "Subdisciplinas3"
+            ]
+
+    def cargaLoadCases(self):
+        #LoadCasesXML = Server.getLoadCases(xsdm)
+        self.LoadCases = [
+            "LoadCases1",
+            "LoadCases2",
+            "LoadCases3"
+            ]

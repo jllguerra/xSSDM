@@ -1,0 +1,125 @@
+from Soft.XMLFunctions import XMLFunctions
+from httpdclient.httpdclient import httpdclient
+import Config.config as Globals
+
+class DB:
+
+    def __init__(self,User):    
+        self.Projects=[]
+        self.ProjectStructure={}
+        self.Tipos=[]
+        self.Estados=[]
+        self.Disciplinas=[]
+        self.Subdisciplinas=[]
+        self.LoadCases=[]
+        self.error=0
+        
+        #self.Conn = httpdclient(User.username, User.passwd, User.Cert_pem, User.PubKey)
+        self.Conn = httpdclient(User.username)
+         #self.Conn.execAPIfunction("conectar", dict())
+
+
+    def isValidSimulation(self,User, sim):
+        if sim.Proyecto not in User.Projects:
+            sim.error='project'
+            return False
+        if sim.Tipo not in self.Tipos:
+            sim.error='tipo'
+            return False
+        if sim.Estado not in self.Estados:
+            sim.error='estado'
+            return False
+#        if self.ProjectStructure[sim.Disciplina] == KeyError:
+        if not sim.Disciplina in self.ProjectStructure:
+            sim.error='disciplina'
+            return False
+        if not sim.Subdisciplina in self.ProjectStructure[sim.Disciplina]:
+            sim.error='subdisciplina'
+            return False
+        if not sim.LoadCase in self.ProjectStructure[sim.Disciplina][sim.Subdisciplina]:
+            sim.error='loadcase'
+            return False
+        
+        sim.cargaDatos(self.ProjectStructure)
+        return True
+    
+    def getSubdisciplinas (self, disciplina):
+        return self.ProjectStructure[disciplina]
+
+    def getLoadCases (self, disciplina,subdisciplina):
+        return self.ProjectStructure[disciplina][subdisciplina]
+ 
+    def getSims(self,projectid,disciplina,subdisciplina,loadcase,owner):
+        self.error=0
+        dict = {'projectid':projectid,'disciplina':disciplina,'subdisciplina':subdisciplina,'loadcase':loadcase,'owner':owner}
+        DatosXML = self.Conn.execAPIfunction("getSims", dict)
+        resultElem = XMLFunctions.xml_getResultado(self,DatosXML)
+        if resultElem.text=='ERROR': 
+            self.error=1
+            return 0
+        Datos = XMLFunctions.xml_getSimulaciones(self,resultElem)
+
+        return Datos
+    
+    def getFiles(self, id, type):
+        self.error=0
+        dict = {'id': id,'type': type} #type=[Inputs,Outputs,Reports]
+        DatosXML = self.Conn.execAPIfunction("getFiles", dict)
+        resultElem = XMLFunctions.xml_getResultado(self,DatosXML)
+        if resultElem.text=='ERROR': 
+            self.error=1
+            return 0
+        Datos = XMLFunctions.xml_getFiles(self,resultElem)
+
+        return Datos
+       
+    
+    def getProjectID(self,projectname):
+        self.error=0
+        dict = {'projectname':projectname}
+        DatosXML = self.Conn.execAPIfunction("getProjectID", dict)
+        resultElem = XMLFunctions.xml_getResultado(self,DatosXML)
+        if resultElem.text=='ERROR': 
+            self.error=1
+            return 0
+        return resultElem.text
+                              
+    def getNumSims(self,project,disciplina,subdisciplina,loadcase,owner):
+        self.error=0
+        dict = {'project':project,'disciplina':disciplina,'subdisciplina':subdisciplina,'loadcase':loadcase,'owner':owner}
+        DatosXML = self.Conn.execAPIfunction("getNumSims", dict)
+        resultElem = XMLFunctions.xml_getResultado(self,DatosXML)
+        if resultElem.text=='ERROR': 
+            self.error=1
+            return 0
+        return resultElem.text
+                              
+    def cargaDatos(self,User, action,tag):
+        self.error=0
+        dict = {}
+        DatosXML = self.Conn.execAPIfunction(action, dict)
+        resultElem = XMLFunctions.xml_getResultado(self,DatosXML)
+        if resultElem.text=='ERROR': 
+            self.error = 1
+            return 1
+        if action == 'getProjectStructure':
+#            Datos = XMLFunctions.xml_getStructrure(self,DatosXML,tag)
+            Datos = XMLFunctions.xml_getStructureDict(self,resultElem,tag)
+            self.ProjectStructure = Datos
+        else:
+            Datos = XMLFunctions.xml_getLista(self,resultElem,tag)
+            if tag == 'discipline': self.Disciplinas = Datos[:]
+            if tag == 'proyecto': User.Projects = Datos[:]
+            if tag == 'tipo': self.Tipos = Datos[:]
+            if tag == 'estado': self.Estados = Datos[:]
+            if tag == 'storagews': User.storageWS = Datos[0]
+            #if tag == 'storagews': User.storageWS = "/data/storage/cae-stg01/stg-ing01/VWGS/scernud/CSBdata"
+        return 0
+        
+    def uploadSimulation (self, username,Filename):
+#        dict['username']=User.username
+        dict = {'filename': Filename,'username': username}
+        xml = self.Conn.execAPIfunction('addsimfromfile', dict)
+        resultElem = XMLFunctions.xml_getResultado(self,xml)
+
+        return resultElem.text

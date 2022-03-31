@@ -1,0 +1,71 @@
+Python lib extra:
+import urllib3
+import requests
+import pkcs11
+import selenium
+import asn1crypto
+
+Pythob lib standard:
+import os,sys
+import hashlib
+import os.path
+from test.test_decimal import file
+import gi
+import stat
+import inspect;
+import logging
+import getopt
+from xml
+import getpass
+from pathlib
+import gi
+from gi.repository import Gtk, GLib, Gdk
+json
+
+ls -ltr /usr2/applications/caesubmit3/X/tools/Python-3.7.2/lib/python3.7/site-packages:
+
+drwxr-xr-x  3 caeapps caeadm    4096 Oct  2  2020 idna/
+drwxr-xr-x  2 caeapps caeadm    4096 Oct  2  2020 idna-2.10.dist-info/
+drwxr-xr-x  4 caeapps caeadm    4096 Oct  2  2020 chardet/
+drwxr-xr-x  2 caeapps caeadm    4096 Oct  2  2020 chardet-3.0.4.dist-info/
+-rwxr-xr-x  1 caeapps caeadm 2612584 Jan 21  2021 cx_Oracle.cpython-37m-x86_64-linux-gnu.so*
+drwxr-xr-x  2 caeapps caeadm    4096 Jan 21  2021 cx_Oracle-8.1.0.dist-info/
+drwxr-xr-x  3 caeapps caeadm    4096 Feb 23  2021 PySmartCard/
+drwxr-xr-x  2 caeapps caeadm    4096 Feb 23  2021 PySmartCard-1.4.1.dist-info/
+-rw-r--r--  1 caeapps caeadm     520 Mar  3  2021 cython.py
+drwxr-xr-x 13 caeapps caeadm    4096 Mar  3  2021 Cython/
+drwxr-xr-x  3 caeapps caeadm    4096 Mar  3  2021 pyximport/
+drwxr-xr-x  2 caeapps caeadm    4096 Mar  3  2021 Cython-0.29.22.dist-info/
+drwxr-xr-x  3 caeapps caeadm    4096 Mar  3  2021 setuptools_scm/
+drwxr-xr-x  2 caeapps caeadm    4096 Mar  3  2021 setuptools_scm-5.0.1.dist-info/
+-rw-r--r--  1 caeapps caeadm    4324 Mar  3  2021 cached_property.py
+drwxr-xr-x  2 caeapps caeadm    4096 Mar  3  2021 cached_property-1.5.2.dist-info/
+drwxr-xr-x  5 caeapps caeadm    4096 May 24 14:18 pip/
+drwxr-xr-x  2 caeapps caeadm    4096 May 24 14:19 pip-21.1.2.dist-info/
+drwxr-xr-x 10 caeapps caeadm    4096 May 25 14:36 future/
+drwxr-xr-x  4 caeapps caeadm    4096 May 25 14:36 libfuturize/
+drwxr-xr-x  4 caeapps caeadm    4096 May 25 14:37 libpasteurize/
+drwxr-xr-x  7 caeapps caeadm    4096 May 25 14:37 past/
+drwxr-xr-x  2 caeapps caeadm    4096 May 25 14:37 future-0.18.2.dist-info/
+drwxr-xr-x  3 caeapps caeadm    4096 May 25 14:37 altgraph/
+drwxr-xr-x  2 caeapps caeadm    4096 May 25 14:37 altgraph-0.17.dist-info/
+-rw-r--r--  1 caeapps caeadm  236667 May 25 14:37 pefile.py
+-rw-r--r--  1 caeapps caeadm   18203 May 25 14:37 peutils.py
+drwxr-xr-x  3 caeapps caeadm    4096 May 25 14:37 ordlookup/
+drwxr-xr-x  2 caeapps caeadm    4096 May 25 14:37 pefile-2021.5.24.dist-info/
+drwxr-xr-x  3 caeapps caeadm    4096 May 25 14:37 macholib/
+drwxr-xr-x  2 caeapps caeadm    4096 May 25 14:37 macholib-1.14.dist-info/
+drwxr-xr-x 12 caeapps caeadm    4096 May 25 14:38 PyInstaller/
+drwxr-xr-x  2 caeapps caeadm    4096 May 25 14:40 PyInstaller-3.3.1.dist-info/
+-rw-r--r--  1 caeapps caeadm  273365 May 26 11:49 pyparsing.py
+drwxr-xr-x  2 caeapps caeadm    4096 May 26 11:49 pyparsing-2.4.7.dist-info/
+drwxr-xr-x  3 caeapps caeadm    4096 May 26 11:49 packaging/
+drwxr-xr-x  2 caeapps caeadm    4096 May 26 11:49 packaging-20.9.dist-info/
+drwxr-xr-x  3 caeapps caeadm    4096 May 26 11:49 pip_review/
+drwxr-xr-x  2 caeapps caeadm    4096 May 26 11:49 pip_review-1.1.0.dist-info/
+drwxr-xr-x  2 caeapps caeadm    4096 May 26 11:53 __pycache__/
+drwxr-xr-x  3 caeapps caeadm    4096 May 28 09:23 nose_parameterized/
+drwxr-xr-x  3 caeapps caeadm    4096 May 28 09:23 parameterized/
+drwxr-xr-x  2 caeapps caeadm    4096 May 28 09:23 parameterized-0.8.1.dist-info/
+drwxr-xr-x  4 caeapps caeadm    4096 May 28 09:23 M2Crypto/
+drwxr-xr-x  2 caeapps caeadm    4096 May 28 09:23 M2Crypto-0.37.1.dist-info/

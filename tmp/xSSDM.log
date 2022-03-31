@@ -1,0 +1,180 @@
+2020-11-02 13:28:59,417 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 13:41:01,489 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 14:43:40,602 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 14:44:39,481 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 14:59:01,674 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 15:01:08,208 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 15:09:18,735 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 15:09:36,339 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 15:11:23,580 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 15:16:31,513 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 15:18:13,199 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 15:20:10,083 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 15:22:49,564 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-02 15:23:33,938 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-03 12:19:25,894 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-03 12:26:36,280 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 55: Error de conexion con el servidor https://leslie:8433/Login/loginPKI.php
+2020-11-03 12:26:39,408 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 55: Error de conexion con el servidor https://leslie:8433/Login/loginPKI.php
+2020-11-03 12:26:40,285 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 55: Error de conexion con el servidor https://leslie:8433/Login/loginPKI.php
+2020-11-03 13:54:42,766 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-03 13:54:43,706 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-03 13:56:44,879 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-03 13:56:47,389 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 13:56:47,390 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 13:57:05,652 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 13:57:18,830 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 13:57:21,581 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 13:58:46,717 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-03 14:00:43,698 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-03 14:00:45,032 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 14:00:45,033 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 14:00:47,890 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:00:49,877 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_hide, line 66: 
+2020-11-03 14:00:51,523 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:01:13,672 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:02:07,804 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-03 14:02:09,376 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 14:02:09,378 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 14:02:11,357 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:02:17,111 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:02:22,444 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:02:23,481 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_hide, line 66: 
+2020-11-03 14:03:13,173 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-03 14:03:46,970 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:04:50,774 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-03 14:04:53,262 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 14:04:53,263 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 14:04:55,252 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:04:56,421 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_hide, line 66: 
+2020-11-03 14:04:57,964 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:05:08,886 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:06:10,898 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 124: Inicio aplicacion
+2020-11-03 14:06:12,410 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 14:06:12,411 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 14:06:14,415 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:06:25,539 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:06:28,776 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_hide, line 66: 
+2020-11-03 14:09:45,974 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 128: Inicio aplicacion
+2020-11-03 14:09:47,689 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 14:09:47,691 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 14:09:49,407 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:52:22,608 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 128: Inicio aplicacion
+2020-11-03 14:52:24,027 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 14:52:24,028 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 14:52:25,993 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:59:28,010 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 133: Inicio aplicacion
+2020-11-03 14:59:32,059 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 14:59:32,060 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 14:59:34,348 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 14:59:59,504 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:00:09,768 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_hide, line 66: 
+2020-11-03 15:10:45,754 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 137: Inicio aplicacion
+2020-11-03 15:10:47,414 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 15:10:47,415 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 15:10:49,237 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:11:19,590 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 137: Inicio aplicacion
+2020-11-03 15:11:32,307 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:12:44,628 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 137: Inicio aplicacion
+2020-11-03 15:12:59,156 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 137: Inicio aplicacion
+2020-11-03 15:21:45,766 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:29:32,363 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 133: Inicio aplicacion
+2020-11-03 15:34:33,394 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 133: Inicio aplicacion
+2020-11-03 15:34:34,891 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 15:34:34,892 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 15:34:36,725 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:35:54,961 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 133: Inicio aplicacion
+2020-11-03 15:36:12,451 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:36:39,993 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in gtk_widget_hide, line 66: 
+2020-11-03 15:42:05,041 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 133: Inicio aplicacion
+2020-11-03 15:42:06,262 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 15:42:06,263 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 15:42:08,046 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:42:33,998 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 133: Inicio aplicacion
+2020-11-03 15:42:56,140 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:45:53,229 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in main, line 133: Inicio aplicacion
+2020-11-03 15:46:20,859 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:47:31,608 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:49:23,181 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:50:28,645 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:51:00,830 INFO File /home/scernud/SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-03 15:51:51,031 INFO File SDM/xSSDM/src/xSSDM.py, in main, line 133: Inicio aplicacion
+2020-11-03 15:51:52,364 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/XMLFunctions.py, in xmlUser_getUser, line 11: <?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <username>scernud</username>
+  </user>
+</users>
+
+2020-11-03 15:51:52,365 DEBUG File /home/scernud/SDM/xSSDM/src/Soft/Login.py, in login, line 62: Usuario php: scernud Usuario OS: scernud
+2020-11-03 15:51:53,595 INFO File SDM/xSSDM/src/xSSDM.py, in gtk_widget_show, line 59: 
+2020-11-06 09:10:47,879 INFO File /home/manchf/webcode/xSSDM/src/xSSDM.py, in main, line 133: Inicio aplicacion
+2020-11-06 09:11:03,774 INFO File /home/manchf/webcode/xSSDM/src/xSSDM.py, in main, line 133: Inicio aplicacion
+2020-11-10 09:47:32,467 INFO File /home/manchf/webcode/xSSDM/src/xSSDM.py, in main, line 133: Inicio aplicacion
+2020-11-10 09:49:06,845 INFO File /home/manchf/webcode/xSSDM/src/xSSDM.py, in main, line 170: Inicio aplicacion
+2020-11-10 09:50:50,178 INFO File /home/manchf/webcode/xSSDM/src/xSSDM.py, in gtk_widget_hide, line 81: 

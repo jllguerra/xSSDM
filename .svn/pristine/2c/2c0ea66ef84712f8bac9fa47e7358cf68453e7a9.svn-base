@@ -1,0 +1,142 @@
+#Import the modules
+import gi
+import string
+gi.require_version('Gtk', '3.0')
+#from gi.repository import Gtk, Vte
+from gi.repository import Gtk
+from gi.repository import GObject
+import os
+from pathlib import Path
+import inspect;
+import logging
+import sys, getopt
+from Soft.XMLFunctions import XMLFunctions
+#import urllib2
+
+class Calculos():
+
+    def __init__(self):    
+        self.username=None
+    
+    def NewSimulation (self,widget,dialog):
+        open_dialog = dialog
+        # if response is "ACCEPT" (the button "Open" has been clicked)
+        #if response_id == Gtk.ResponseType.ACCEPT:
+            # self.file is the file that we get from the FileChooserDialog
+        self.filename = open_dialog.get_filename()
+        self.SimFileLabel = self.win.get_object("NewSimFile")
+        self.SimFileLabel.set_text(self.SimFileLabel.get_text() + self.filename)
+                    
+        self.file = open_dialog.get_file()
+        # an empty string (provisionally)
+        content = ""
+        try:
+            # load the content of the file into memory:
+            # success is a boolean depending on the success of the operation
+            # content is self-explanatory
+            # etags is an entity tag (can be used to quickly determine if the
+            # file has been modified from the version on the file system)
+            [success, content, etags] = self.file.load_contents(None)
+        except GObject.GError as e:
+            print("Error: " + e.message)
+        # set the content as the text into the buffer
+        #self.buffer.set_text(content, len(content))
+        print("opened: " + self.filename)
+        # if response is "CANCEL" (the button "Cancel" has been clicked)
+        #elif response_id == Gtk.ResponseType.CANCEL:
+            #print("cancelled: FileChooserAction.OPEN")
+        # destroy the FileChooserDialog
+        dialog.destroy()
+        self.NewSimWindow = self.win.get_object("NewSimWindow")
+        self.NewSimWindow.show()
+            
+        
+    def expandir_Proyecto(self,project_view, path, column):
+        project = self.project_store.get_iter(path)
+        projectId = self.project_store.get_value(project, 0)
+        # Buscar en Server los datos bajo el Projecto
+        self.project_store.append(project,["Prj12",projectId])
+
+    def start_SSDM(self):
+        # set username
+        username = self.win.get_object("userid") 
+        username.set_text("Welcome: " + self.useridOS)
+        self.main_window = self.win.get_object( "SSDM" )
+
+        # Add logfile
+        self.log_buffer = self.win.get_object( "Log" )
+        with open(self.logFilename, 'r') as f:
+                data = f.read()
+                self.log_buffer.set_text(data)  
+                     
+#         v = vte.Terminal()
+#         self.term = Terminal()
+#         v.fork_command('bash')
+#         v.feed_child('ssh %s tail -f %s.o%s \n' % (host,jname,id))
+#         v.show()
+#         notebook.append_page(v, tab_label=gtk.Label(nodeid)) 
+               
+        # set user Projects
+        # list of tuples for each software, containing the software name, initial release, and main programming languages used
+        project_list = [
+            ("Prj1","Prj1 Desc"),
+            ("Prj2","Prj2 Desc"),
+            ("Prj3","Prj3 Desc"),
+        ]
+         
+        self.project_tree = self.win.get_object("Arbol")
+         
+        # Adding info in the TreeStore model
+        self.project_store = self.win.get_object("Projects")
+        for project_ref in project_list:
+            cur_project=self.project_store.append(None,list(project_ref))
+        self.current_filter_language = None  
+         
+        # Generamos columnas en Tree View
+        self.column1 = Gtk.TreeViewColumn("Project")
+        self.project_tree.append_column(self.column1)
+        self.column2 = Gtk.TreeViewColumn("Description")
+        self.project_tree.append_column(self.column2)
+#         self.column3 = Gtk.TreeViewColumn("Description")
+#         self.project_tree.append_column(self.column3)
+        #column.set_sort_column_id(0)
+         
+        self.cell1 = Gtk.CellRendererText()
+        self.column1.pack_start(self.cell1, True)
+        self.column1.add_attribute(self.cell1, 'text', 0)
+        self.cell2 = Gtk.CellRendererText()
+        self.column2.pack_start(self.cell2, True)
+        self.column2.add_attribute(self.cell2, 'text', 1)
+#         self.cell3 = Gtk.CellRendererText()
+#         self.column3.pack_start(self.cell3, True)
+#         self.column3.add_attribute(self.cell3, 'text', 2)
+         
+        self.project_tree.set_search_column(0)
+        self.column1.set_sort_column_id(0)
+#         self.column2.set_sort_column_id(1)
+#         self.column3.set_sort_column_id(2)
+ 
+        self.project_tree.connect("row-activated", self.onProjectView_row_expand)
+ 
+ 
+        self.Paned = self.win.get_object("Paned")
+        self.Paned.set_position(250)
+        self.Principal = self.win.get_object("Principal")
+        self.Principal.set_position(250)
+
+        self.main_window.show()
+        
+
+#===============================================================================
+#     tree = ElementTree.fromstring(response.content)
+# 
+# #  or, if the response is particularly large, use an incremental approach:
+# 
+#     response = requests.get(url, stream=True)
+# # if the server sent a Gzip or Deflate compressed response, decompress
+# # as we read the raw stream:
+#     response.raw.decode_content = True
+# 
+#     events = ElementTree.iterparse(response.raw)
+#     for event, elem in events:
+#        # do something with `elem`

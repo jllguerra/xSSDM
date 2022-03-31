@@ -1,0 +1,16 @@
+from xml.etree import ElementTree
+import inspect;
+
+class XMLFunctions:
+    
+    def __init__( self):
+        self.username = "Not User"
+        
+    def xml_getUser( self , xml, logger):
+        self.msg = xml
+        logger.debug ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],self.msg))
+        self.root = ElementTree.fromstring(xml)
+        for user in self.root.findall('user'):
+            self.username = user.find('username').text
+        return self.username
+

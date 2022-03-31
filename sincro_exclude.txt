@@ -1,0 +1,8 @@
+sincro*
+config*
+lib
+*~
+__pycache__
+*.sh
+.*
+*.log

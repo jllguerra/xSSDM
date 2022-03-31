@@ -1,0 +1,132 @@
+import sys, getopt, os, getpass, logging, inspect
+from Soft.User import User
+from Soft.Simulacion import Simulacion
+from FileTransfer.SimFiles import SimFiles
+from Soft.DB import DB
+from pathlib import Path
+import Config.config as Globals
+
+class ssdm_import():
+    def upload_simulation(self,file):
+        # Comprobacion STO
+        if not os.path.exists(self.User.storageWS):
+            self.logger.info ("STO " + self.User.storageWS +" no es accesible")
+            sys.exit(2)
+        self.Sim = Simulacion()
+        self.Sim.Filename=file
+        self.logger.info (" : FILE to UPLOAD: " + file)
+        if not self.Sim.isStructureOK():
+            self.logger.info (": Error en la structura de la simulacion")
+            sys.exit(2)
+        SimFile=SimFiles(self,"","","")
+        file = SimFile.openfile(self,self.Sim.Filename,'r')
+        error = self.Sim.readCabecera(file)
+        if not error: valid=self.DB.isValidSimulation(self.User, self.Sim)
+        else:
+            self.logger.info (": Error en la cabecera de la simulacion")
+            sys.exit(2)        
+        if valid: error = self.Sim.importSimulation(self.DB,self.User,self.logger)
+        else:
+            self.logger.info (": Error simulacion: " + self.Sim.error + " no valida")
+            sys.exit(2)  
+        return error
+  
+
+    def cargaDatos(self):
+        if self.DB.Conn.error == "":
+#            self.DB.cargaUserProjects(self.User)
+            if self.DB.cargaDatos(self.User, 'getUserProjects','proyecto'): 
+                self.logger.info (": Error en la carga de Datos: Proyectos")
+                return 1
+            if self.DB.cargaDatos(self.User, 'getProjectStructure','discipline'):
+                self.logger.info (": Error en la carga de Datos: Estructura")
+                return 1
+            if self.DB.cargaDatos(self.User, 'getDisciplinas','discipline'):
+                self.logger.info (": Error en la carga de Datos: Disciplina")
+                return 1
+            if self.DB.cargaDatos(self.User, 'getEstados','estado'):
+                self.logger.info (": Error en la carga de Datos: Estados")
+                return 1
+            if self.DB.cargaDatos(self.User, 'getTipos','tipo'):
+                self.logger.info (": Error en la carga de Datos: Tipos")
+                return 1
+            if self.DB.cargaDatos(self.User, 'getStorageWS','storagews'):
+                self.logger.info (": Error en la carga de Datos: StorageWS")
+                return 1
+
+        else: 
+            self.logger.info (": Error en la carga de Datos")
+            return 1
+        return 0
+            
+     
+    def main(self,argv):
+        # Config
+        Globals.initialize(1)
+        # Arguments
+        try:
+            #opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
+            opts, args = getopt.getopt(argv,"hdi:")
+        except getopt.GetoptError:
+            print ("ssdm_import.py [-d|-h] -i=simfile")
+            sys.exit(2)
+        for opt, arg in opts:
+            if opt == '-h':
+                print ("ssdm_import.py [-d|-h] -i=simfile")
+                sys.exit()
+            #elif opt in ("-l", "--log"):
+            elif opt in ("-d"):
+                self.logger.setLevel(logging.DEBUG)
+            elif opt in ("-i"):
+                optsign, file = arg[0], arg[1:]
+        
+        # Log file        
+        if not os.path.exists(self.tmpDir): 
+            #self.msg = "El directorio %s ya existe" % self.tmpDir
+            #self.logger.debug ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],self.msg))
+        #else:
+            try:
+                os.mkdir(self.tmpDir)
+            except OSError:
+                print ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],self.msg))
+                sys.exit(2)
+            #else:
+                #self.msg = "Se ha creado el directorio: %s " % self.tmpDir
+                #self.logger.debug ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],self.msg))
+                
+        # Inicio        
+        hdlr = logging.FileHandler(self.logFilename)
+        formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+        hdlr.setFormatter(formatter)
+        self.logger.addHandler(hdlr) 
+        
+        self.logger.info (": ******************************** NEW UPLOAD ***************************************")
+        self.DB = DB(self.User)
+        if self.DB.Conn.error == "":  
+            err=self.cargaDatos()
+            if not err: 
+                result=self.upload_simulation(file)
+                self.logger.info (": %s" % (result))
+            else: 
+                self.logger.info (": Error Carga Datos")
+        else:
+            self.logger.info (": Error Login")
+            return 1
+
+    # Inicializacion
+    def __init__(self):
+        self.scriptDir = os.path.dirname(os.path.realpath(__file__))
+        self.tmpDir = self.scriptDir + "/../tmp/"
+        self.User = User(getpass.getuser())
+        self.logFilename = self.tmpDir + Path(os.path.realpath(__file__)).stem + ".log"
+        self.logger = logging.getLogger('myapp')
+        self.logger.setLevel(logging.INFO)
+        # EJEMPLO LOGGER
+        #self.msg = "Se ha creado el directorio: %s " % self.tmpDir
+        #self.logger.debug ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],self.msg))
+ 
+# Inicio Aplicacion  
+if __name__=='__main__':
+    app = ssdm_import()
+    app.main(sys.argv[1:])
+    
