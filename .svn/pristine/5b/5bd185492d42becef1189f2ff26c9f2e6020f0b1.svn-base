@@ -1,8 +1,0 @@
-class User:
-
-    def __init__(self,userid):    
-        self.username=userid
-        self.passwd=userid
-        #self.conn=""
-        self.Projects=[]
-

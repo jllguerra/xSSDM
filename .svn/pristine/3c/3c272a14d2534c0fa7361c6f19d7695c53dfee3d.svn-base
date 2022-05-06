@@ -1,7 +1,0 @@
-class User:
-
-    def __init__(self,userid):    
-        self.username=userid
-        self.Projects=[]
-        self.storageWS=""
-
