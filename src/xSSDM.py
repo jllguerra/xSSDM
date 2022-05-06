@@ -1,4 +1,6 @@
 import gi
+import glob
+import re
 gi.require_version('Gtk', '3.0')
 gi.require_version('Gdk', '3.0')
 from gi.repository import Gtk, GLib, Gdk
@@ -196,7 +198,9 @@ class xSSDM(Gtk.Application):
                 childs = self.DB.getSubdisciplinas(name)
                 for child in childs:
                     numsims= self.DB.getNumSims(self.User,self.selected_projectID,disciplina,child,loadcase,self.selected_estadoID,self.seeOwnSims,self.User.username.upper())
-                    if not numsims=="0": self.project_store.append(currentIter,[child,numsims,tipoChild,""])
+                    if not numsims=="0": 
+                      self.project_store.append(currentIter,[child,numsims,tipoChild,""])
+#                self.project_tree.expand_all()
             if tipoParent == 'Subdisciplina':
                 # Buscar LoadCases DB
                 ramaDisciplina=self.getParentIter(self.project_store,path)
@@ -228,7 +232,8 @@ class xSSDM(Gtk.Application):
                 self.listaSimsStore.clear()  
                 self.detailsFrame.set_position(100)      
                 self.mostrar_Simulacion(datos)
-                          
+        project_view.expand_row(path,True)
+        
     def getParentIter(self,store,path):
         indices=path.get_indices()
         parentIndices=[]
@@ -867,9 +872,9 @@ class xSSDM(Gtk.Application):
                 self.addItemButton.set_sensitive(False)
         
     def on_unselectItemButton_clicked(self, data=None):
-        self.disciplineView.get_selection().unselect_all()
-        self.addItemButton.set_sensitive(True)
-        self.deleteItemButton.set_sensitive(False)
+      self.disciplineView.get_selection().unselect_all()
+      self.addItemButton.set_sensitive(True)
+      self.deleteItemButton.set_sensitive(False)
         
         
     def on_adminStructure_activated(self,menu, data=None):
@@ -965,26 +970,26 @@ class xSSDM(Gtk.Application):
         return
     
     def isValidDate(self, dateinput):
-        # initializing format
-        format = "%d/%m/%Y"
+      # initializing format
+      format = "%d/%m/%Y"
          
-        # checking if format matches the date
-        res = True
+      # checking if format matches the date
+      res = True
          
-        # using try-except to check for truth value
-        try:
-            res = bool(datetime.strptime(dateinput, format))
-            if datetime.strptime(dateinput, format) > datetime.now(): 
-                res=False
-        except ValueError:
-            res = False
-        return res
+      # using try-except to check for truth value
+      try:
+        res = bool(datetime.strptime(dateinput, format))
+        if datetime.strptime(dateinput, format) > datetime.now(): 
+          res=False
+      except ValueError:
+        res = False
+      return res
  
     def on_selectDateButton_clicked(self,win):
-        date=self.calendar.get_date()
-        date_str=str(date.day) + "/" + str(date.month+1) + "/" + str(date.year)
-        self.dateEntry.set_text(date_str)
-        win.hide()
+      date=self.calendar.get_date()
+      date_str=str(date.day) + "/" + str(date.month+1) + "/" + str(date.year)
+      self.dateEntry.set_text(date_str)
+      win.hide()
 
     def on_deleteRoleButton_clicked(self,button,data=None):
         user=self.listaUsers.get_active_text()
@@ -1013,16 +1018,16 @@ class xSSDM(Gtk.Application):
             self.show_message(self.selectDirWindow, 'dialog-error', msg, "Delete Role User")                    
         
     def on_rowRole_activated(self,selection,path=None,column=None):
-        treestore, path = selection.get_selected_rows()
-        if (len(path)>0):
-            for item in path:
-                user=self.user2Dict(treestore[item])
-                #self.listaUsers.set_active(user['userid'])
-                self.listaRequest.set_active_id(user['requester'])
-                self.dateEntry.set_text(user['fechapeticion'])
-                self.listaProjects.set_active_id(user['projectname'])
-                self.listaDisciplinas.set_active_id(user['discipline'])
-                self.listaRoles.set_active_id(user['rolename'])
+      treestore, path = selection.get_selected_rows()
+      if (len(path)>0):
+        for item in path:
+          user=self.user2Dict(treestore[item])
+          #self.listaUsers.set_active(user['userid'])
+          self.listaRequest.set_active_id(user['requester'])
+          self.dateEntry.set_text(user['fechapeticion'])
+          self.listaProjects.set_active_id(user['projectname'])
+          self.listaDisciplinas.set_active_id(user['discipline'])
+          self.listaRoles.set_active_id(user['rolename'])
 
     
     def on_AddRole_clicked(self,button,data=None):
@@ -1919,13 +1924,14 @@ class xSSDM(Gtk.Application):
       self.soft='abaqus';
       self.gtk_NewSimulation(widget,data)
       
+    
     def gtk_NewSimulation(self,widget,data=None):
         # Llamada a nueva simulacion con parametros
         # 
 #        response=Gtk.ResponseType.REJECT
         if not os.path.exists(self.User.Profile['sto']):
-            self.show_message(self.selectFileWindow,"dialog-error","STO " + self.User.Profile['sto'] +" is no accesible","Error new Simulation")
-            return
+          self.show_message(self.selectFileWindow,"dialog-error","STO " + self.User.Profile['sto'] +" is no accesible","Error new Simulation")
+          return
         
         listfilters=self.selectFileWindow.list_filters()
         for filter in listfilters:
@@ -1950,36 +1956,40 @@ class xSSDM(Gtk.Application):
         self.selectFileWindow.set_current_folder(self.User.Profile['sto'])
 
         if not self.selectFileWindow.is_active(): 
-            response = self.selectFileWindow.run()
-            if not response == Gtk.ResponseType.ACCEPT:
-                self.selectFileWindow.hide()
-                return
+          response = self.selectFileWindow.run()
+          if not response == Gtk.ResponseType.ACCEPT:
+            self.selectFileWindow.hide()
+            return
         
         file = self.selectFileWindow.get_file()
         self.Sim = Simulacion()
 #        Sim.NewSimulation(self,file)
         self.Sim.Filename=file.get_path()
         self.Sim.Name=Path(self.Sim.Filename).stem
-        if not self.Sim.isStructureOK(self.logger):
-            msg="Simulation Folder Structure error"
-            self.logger.error ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],msg))
-            self.show_message(self.selectFileWindow,"dialog-error",msg,"Read error")
-            self.selectFileWindow.hide()
-            return
+        #leemos cabecera
         SimFile=SimFiles()
         file = SimFile.openfile(self.Sim.Filename,'r')
         if SimFile.error:
-            msg=SimFile.errorMsg
-            self.logger.error ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],msg))
-            self.show_message(self.selectFileWindow,"dialog-error",SimFile.errorMsg,"Read error")           
+          msg=SimFile.errorMsg
+          self.logger.error ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],msg))
+          self.show_message(self.selectFileWindow,"dialog-error",SimFile.errorMsg,"Read error")           
         self.Sim.readCabecera(file)
+        
+        #verificamos estructura
+        if not self.Sim.isStructureOK(self.logger):
+          msg="Simulation Folder Structure error"
+          self.logger.error ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],msg))
+          self.show_message(self.selectFileWindow,"dialog-error",msg,"Read error")
+          self.selectFileWindow.hide()
+          return
+
         self.selectFileWindow.hide()
         if not self.Sim.error:
-            self.showCabecera()
+          self.showCabecera()
         else:
-            msg="Error reading HeadFile. HeadFile error: " + self.Sim.errorMsg
-            self.logger.error ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],msg))
-            self.show_message(self.selectFileWindow,"dialog-error",msg,"Error reading HeadFile")
+          msg="Error reading HeadFile. HeadFile error: " + self.Sim.errorMsg
+          self.logger.error ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],msg))
+          self.show_message(self.selectFileWindow,"dialog-error",msg,"Error reading HeadFile")
 
     def showCabecera(self):
         self.buttonImport.set_sensitive(True)
@@ -2089,25 +2099,11 @@ class xSSDM(Gtk.Application):
         self.DB.deleteSimulation(self.User,self.simduplicated[0])
         if (self.DB.error==0):  
             # Import simulation
-            self.Sim.soft=self.soft
-            self.Sim.importSimulation(self.DB,self.User,self.logger)
-            if (self.Sim.error==0): 
-    #            self.show_message(self.NewSimWindow, 'dialog-information', result[3:], "Importacion Simulacion")
-                msg="SIMULATION "+ self.Sim.ID + " IMPORTED SUCCESSFULY"
-                self.logger.info (msg)
-                self.show_message(self.NewSimWindow, 'dialog-information', msg, "Importing Simulation")
-                # Añadimos a la seleccion
-                datosSim={'id' : self.Sim.ID,'name' : self.Sim.Name, 'project' : self.Sim.Proyecto,'discipline' : self.Sim.Disciplina,'subdiscipline' : self.Sim.Subdisciplina,'loadcase' : self.Sim.LoadCase,'reference' : self.Sim.Reference,'variant' : self.Sim.Variant,'owner' : self.Sim.Owner,'creation' : self.Sim.CreationDate,'status' : self.Sim.Estado,'nfiles' : self.Sim.Nfiles,'outputs' : self.Sim.Outputs,'reports' : self.Sim.Reports, 'ownerLN' : self.Sim.OwnerLN,'extern' : self.Sim.Extern,'access' : self.Sim.AccessLevel, 'subloadcase' : self.Sim.SubLoadcase, 'aux1' : self.Sim.Aux1, 'aux2' : self.Sim.Aux2, 'aux3' : self.Sim.Aux3, 'aux4' : self.Sim.Aux4, 'aux5' : self.Sim.Aux5, 'aux6' : self.Sim.Aux6, 'label' : self.Sim.Label, 'description' : self.Sim.Description, 'type' : self.Sim.Type, 'rights' : self.Sim.Rights, 'path': ''}
-                datos=json.dumps(datosSim)
-                self.mostrar_Simulacion(datos)
-            else:
-                msg="SIMULATION not imported: " + self.Sim.errorMsg
-                self.logger.error ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],msg))
-                self.show_message(self.NewSimWindow, 'dialog-information', msg, "Importing Simulation")
+          self.importSimulation(widget)
         else:
-            msg="SIMULATION DUPLICATED not deleted: " + self.DB.errorMsg
-            self.logger.error ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],msg))
-            self.show_message(self.NewSimWindow, 'dialog-information', msg, "Importing Simulation")
+          msg="SIMULATION DUPLICATED not deleted: " + self.DB.errorMsg
+          self.logger.error ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],msg))
+          self.show_message(self.NewSimWindow, 'dialog-information', msg, "Importing Simulation")
 
         #self.importMessage.set_markup("<span foreground='red'><b></b></span>")
         self.NewSimWindow.hide()
@@ -2117,6 +2113,89 @@ class xSSDM(Gtk.Application):
 #         self.importMessage.set_markup("<span foreground='red'><b></b></span>")
         self.NewSimWindow.hide()
                                     
+    def upload_shot(self,file):
+      result=""
+        
+      # check structure
+      self.Sim = Simulacion()
+      self.Sim.Filename=file
+      self.Sim.soft=self.soft;
+      self.Sim.Name=Path(self.Sim.Filename).stem
+#        if not self.Sim.isStructureOK(self.logger): return "Error in simulation structure: " + self.Sim.errorMsg
+        
+      # Open file
+      SimFile=SimFiles()
+      file = SimFile.openfile(self.Sim.Filename,'r')
+      if SimFile.error: return SimFile.errorMSG
+        
+        # Read HeadFile
+#        error = self.Sim.readCabecera(file)
+#        if not error: valid=self.DB.isValidSimulation(self.User, self.Sim)
+#        else: return "Error en la cabecera de la simulacion: " + self.Sim.errorMsg
+#        if not valid: 
+#            if self.DB.errorMsg == 'project': return "Simulation not valid: " + self.DB.errorMsg + " " + self.Sim.Proyecto + " doesn't exist or you don't have rights"
+#            if self.DB.errorMsg == 'tipo': return "Simulation not valid: " + self.DB.errorMsg + " " + self.Sim.Tipo + " doesn't exist"
+#            if self.DB.errorMsg == 'estado': return "Simulation not valid: " + self.DB.errorMsg + " " + self.Sim.Estado + " doesn't exist"
+#            if self.DB.errorMsg == 'disciplina': return "Simulation not valid: " + self.DB.errorMsg + " " + self.Sim.Disciplina + " doesn't exist"
+#            if self.DB.errorMsg == 'subdisciplina': return "Simulation not valid: " + self.DB.errorMsg + " " + self.Sim.Subdisciplina + " doesn't exist"
+#            if self.DB.errorMsg == 'loadcase': return "Simulation not valid: " + self.DB.errorMsg + " " + self.Sim.LoadCase + " doesn't exist"
+        
+        # Check duplicated simulation
+      self.Sim.Name=self.Sim.Name[0:len(self.Sim.Name)-5]
+          
+      # Buscamos el nombre del Shot con el nombre de sim y dentro del .pc
+      shotnameraw=self.Sim.Filename[len(self.Sim.Filename)-8:len(self.Sim.Filename)-3]
+      shotincluline=SimFiles.mygrep(self.Sim.Filename,shotnameraw+'.inc')
+          
+      shotname=re.search(r"\w+_\w+", shotincluline).group(0)
+          
+#      newBaseFileName=self.Sim.Filename[0:len(self.Sim.Filename)-8]
+#      newBaseFileName+=self.Sim.Filename[len(self.Sim.Filename)-3:]
+#        shutil.copyfile(self.Sim.Filename,newBaseFileName)
+#      self.Sim.Filename=newBaseFileName
+      sim = self.DB.getSimbyName(self.User,self.Sim.Name)
+      if (len(sim)==1):
+        self.currentsim = next(iter(sim.items()))
+        self.Sim.ID=self.currentsim[0]
+        self.Sim.addShot(self.DB,self.User,shotname,self.logger)
+        if (self.Sim.error==1): 
+          result=self.Sim.errorMsg
+      else:
+        result="No existe SIM a la que añadir el Shot"
+          
+
+      return result
+      
+    def importSimulation(self,widget):
+
+      self.Sim.soft=self.soft
+      result = self.Sim.importSimulation(self.DB,self.User,self.logger)
+      if (self.Sim.error==0): 
+        msg="SIMULATION "+ self.Sim.ID + " IMPORTED SUCCESSFULY"
+        self.logger.info (msg)
+        self.show_message(self.NewSimWindow, 'dialog-information', msg, "Importing Simulation")
+         # A��adimos a la seleccion
+        datosSim={'id' : self.Sim.ID,'name' : self.Sim.Name, 'project' : self.Sim.Proyecto,'discipline' : self.Sim.Disciplina,'subdiscipline' : self.Sim.Subdisciplina,'loadcase' : self.Sim.LoadCase,'reference' : self.Sim.Reference,'variant' : self.Sim.Variant,'owner' : self.Sim.Owner,'creation' : self.Sim.CreationDate,'status' : self.Sim.Estado,'nfiles' : self.Sim.Nfiles,'outputs' : self.Sim.Outputs,'reports' : self.Sim.Reports, 'ownerLN' : self.Sim.OwnerLN,'extern' : self.Sim.Extern,'access' : self.Sim.AccessLevel, 'subloadcase' : self.Sim.SubLoadcase, 'aux1' : self.Sim.Aux1, 'aux2' : self.Sim.Aux2, 'aux3' : self.Sim.Aux3, 'aux4' : self.Sim.Aux4, 'aux5' : self.Sim.Aux5, 'aux6' : self.Sim.Aux6, 'label' : self.Sim.Label, 'description' : self.Sim.Description, 'type' : self.Sim.Type, 'rights' : self.Sim.Rights, 'path': ''}
+        datos=json.dumps(datosSim)
+        self.mostrar_Simulacion(datos)
+        if self.Sim.Disciplina=='PedestrianProtection':
+          shotsims=glob.glob(os.path.dirname(self.Sim.Filename) + "/Shots/*/"+ self.Sim.Name +"?????.pc")
+          for shotsim in shotsims:
+            self.upload_shot(shotsim)
+      else: 
+        msg="SIMULATION not imported: " + self.Sim.errorMsg
+        self.logger.error ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],msg))
+        self.show_message(self.NewSimWindow, 'dialog-information', msg, "Importing Simulation")
+      
+      
+          
+      return result
+    
+    def gtk_importShot(self,widget):
+      if self.Sim.Disciplina=='PedestrianProtection':
+        self.upload_shot(self.Sim.Filename)
+      return result
+    
     def gtk_importSimulation(self,widget):
 #         self.importMessage.set_justify(Gtk.Justification.CENTER)
 #         self.importMessage.set_markup("<span foreground='red'><b>Importando simulacion </b></span>")
@@ -2126,25 +2205,13 @@ class xSSDM(Gtk.Application):
         sim = self.DB.getSimbyName(self.User,self.Sim.Name)
         if (len(sim)==1): 
             # pregunta si sobreescribir
-            self.simduplicated = next(iter(sim.items()))
-            self.questionLabel.set_markup("<span foreground='black'> ALREALDY EXIST A SIMULATION WITH THIS NAME (" + self.simduplicated[0] + ") </span>")
-            self.noteLabel1.set_markup("<span foreground='black'> Do you want to overwrite? </span>")
-            self.noteLabel2.set_markup("<span foreground='black'><b> (NOTE: The existing simulation will be deleted) </b></span>")
-            self.YesCancelWindow.show()
+          self.simduplicated = next(iter(sim.items()))
+          self.questionLabel.set_markup("<span foreground='black'> ALREALDY EXIST A SIMULATION WITH THIS NAME (" + self.simduplicated[0] + ") </span>")
+          self.noteLabel1.set_markup("<span foreground='black'> Do you want to overwrite? </span>")
+          self.noteLabel2.set_markup("<span foreground='black'><b> (NOTE: The existing simulation will be deleted) </b></span>")
+          self.YesCancelWindow.show()
         else:
-            self.Sim.soft=self.soft
-            result = self.Sim.importSimulation(self.DB,self.User,self.logger)
-            if (self.Sim.error==0): 
-                self.importMessage.set_markup("")
-                self.show_message(self.NewSimWindow, 'dialog-information', "SIMULACION "+ self.Sim.ID + " IMPORTADA CON EXITO", "Importacion Simulacion")
-                # A��adimos a la seleccion
-                datosSim={'id' : self.Sim.ID,'name' : self.Sim.Name, 'project' : self.Sim.Proyecto,'discipline' : self.Sim.Disciplina,'subdiscipline' : self.Sim.Subdisciplina,'loadcase' : self.Sim.LoadCase,'reference' : self.Sim.Reference,'variant' : self.Sim.Variant,'owner' : self.Sim.Owner,'creation' : self.Sim.CreationDate,'status' : self.Sim.Estado,'nfiles' : self.Sim.Nfiles,'outputs' : self.Sim.Outputs,'reports' : self.Sim.Reports, 'ownerLN' : self.Sim.OwnerLN,'extern' : self.Sim.Extern,'access' : self.Sim.AccessLevel, 'subloadcase' : self.Sim.SubLoadcase, 'aux1' : self.Sim.Aux1, 'aux2' : self.Sim.Aux2, 'aux3' : self.Sim.Aux3, 'aux4' : self.Sim.Aux4, 'aux5' : self.Sim.Aux5, 'aux6' : self.Sim.Aux6, 'label' : self.Sim.Label, 'description' : self.Sim.Description, 'type' : self.Sim.Type, 'rights' : self.Sim.Rights, 'path': ''}
-                datos=json.dumps(datosSim)
-                self.mostrar_Simulacion(datos)
-            else: 
-                msg=result
-                self.logger.error ("File %s, in %s, line %s: %s" % (inspect.stack()[0][1],inspect.stack()[0][3],inspect.stack()[0][2],msg))
-                self.show_message(self.NewSimWindow, 'dialog-error', result, "Importacion Simulacion")
+          self.importSimulation(widget)
         self.NewSimWindow.hide()
         
         

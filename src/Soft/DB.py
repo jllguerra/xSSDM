@@ -379,6 +379,23 @@ class DB:
         if tag == 'storagews': User.storageWS = Datos[0][0]
         #if tag == 'storagews': User.storageWS = "/data/storage/cae-stg01/stg-ing01/VWGS/scernud/CSBdata"
         return 0
+      
+    def addShot(self, User, username,Filename,simid,shotname):
+#        dict['username']=User.username
+        self.error=0
+        self.errorMsg=""
+        dict = {'simid':simid,'filename': Filename,'userid': username,'soft':self.soft,'shotname':shotname}
+        xml = self.Conn.execAPIfunction('addShot', User.username, dict)
+        resultElem = XMLFunctions.xml_getResultado(self,xml)
+        if (resultElem.text!=None):
+            if resultElem.text[0:5]=='ERROR': 
+                self.error = 1
+                self.errorMsg=resultElem.text
+                return 0
+#        else:
+#            Datos = XMLFunctions.xml_getSimulaciones(self,resultElem)
+#            self.Datos = Datos[list(Datos.keys())[0]]
+        return 0                    
         
     def uploadSimulation (self, User, username,Filename):
 #        dict['username']=User.username

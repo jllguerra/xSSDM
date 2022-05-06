@@ -56,10 +56,12 @@ class Simulacion:
             bdf=['output'],
             inc=['output'],
             sdm=['output.*'])
+        self.PedestrianoutputsDir=['Shots']
 
         
     def isStructureOK(self,logger):
-        file=SimFiles()
+      result=True
+      file=SimFiles()
 #         pa=os.path.split(os.path.dirname(self.Filename))
 #         msg = "filedir: " + pa[0] + " dir: " + self.outputsDir['default'][0]
 #         
@@ -67,19 +69,25 @@ class Simulacion:
 #             self.msg = "file: " + self.Filename + " is not in " + self.structureDir[0] + " directory"
 #             logger.error (": %s" % (self.msg))
 #             return False
-        
-        splitFile=os.path.splitext(self.Filename)
-        ext=splitFile[len(splitFile)-1]
-        index=ext.lstrip('.')
-        self.path=file.getRootDirectory(self.Filename)
+      splitFile=os.path.splitext(self.Filename)
+      ext=splitFile[len(splitFile)-1]
+      index=ext.lstrip('.')
+      self.path=file.getRootDirectory(self.Filename)
+      
+      if self.Disciplina=='PedestrianProtection':
+        if not file.existStructure(self.path, self.PedestrianoutputsDir):
+          self.error=file.error
+          self.errorMsg=file.errorMSG
+          result=False
+      else:
         if not index in self.outputsDir:
-            index='default'
+          index='default'
         if not file.existStructure(self.path, self.outputsDir[index]):
-            self.error=file.error
-            self.errorMsg=file.errorMSG
-            return False
+          self.error=file.error
+          self.errorMsg=file.errorMSG
+          result=False
 
-        return True
+      return result
 
     
     def downloadFiles(self, sim, User, DB, dirdest,selected_files,logger):
@@ -156,7 +164,17 @@ class Simulacion:
                 if item == 'description':
                     self.Description=DB.Datos[item]
         return self.error
-
+    def addShot(self,DB,User,shotname,logger):
+      simid=self.ID
+      self.msg = "    Shot to UPLOAD: " + self.Filename
+      logger.info (": %s" % (self.msg))
+      DB.soft=self.soft;
+      DB.addShot(User, User.username,self.Filename,simid,shotname)
+      if DB.error==1:
+        self.error=DB.error
+        self.errorMsg=DB.errorMsg
+      return self.error
+    
     def importSimulation(self,DB,User,logger):
         #print ("import Simulation")
 #        self.pathSTO=User.Profile['sto'] + "/" + User.username + "." + self.Name

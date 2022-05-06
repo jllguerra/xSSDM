@@ -7,9 +7,12 @@ from pathlib import Path
 import Config.config as Globals
 from Config.config import TMP_DIR
 import argparse
+import shutil
+import re
 
 class ssdm_import():
     def upload_simulation(self,file):
+        result=""
         # check STO
         if not os.path.exists(self.User.Profile['sto']): return "STO " + self.User.Profile['sto'] + " doesn't exist"
         if not os.path.exists(file): return "The file " + file +" doesn't exist"
@@ -39,17 +42,47 @@ class ssdm_import():
             if self.DB.errorMsg == 'loadcase': return "Simulation not valid: " + self.DB.errorMsg + " " + self.Sim.LoadCase + " doesn't exist"
         
         # Check duplicated simulation
-        sim = self.DB.getSimbyName(self.User,self.Sim.Name)
-        if (len(sim)==1): 
+        if (self.Sim.Disciplina == 'PedestrianProtection'):
+          self.Sim.Name=self.Sim.Name[0:len(self.Sim.Name)-5]
+          
+          # Buscamos el nombre del Shot con el nombre de sim y dentro del .pc
+          shotnameraw=self.Sim.Filename[len(self.Sim.Filename)-8:len(self.Sim.Filename)-3]
+          shotincluline=SimFiles.mygrep(self.Sim.Filename,shotnameraw+'.inc')
+          
+          shotname=re.search(r"\w+009\w+", shotincluline).group(0)
+          
+          newBaseFileName=self.Sim.Filename[0:len(self.Sim.Filename)-8]
+          newBaseFileName+=self.Sim.Filename[len(self.Sim.Filename)-3:]
+#          shutil.copyfile(self.Sim.Filename,newBaseFileName)
+          self.Sim.Filename=newBaseFileName
+          sim = self.DB.getSimbyName(self.User,self.Sim.Name)
+          if (len(sim)==1):
+            self.currentsim = next(iter(sim.items()))
+            self.Sim.ID=self.currentsim[0]
+            self.Sim.addShot(self.DB,self.User,shotname,self.logger)
+            if (self.Sim.error==1): 
+              result=self.Sim.errorMsg
+          else:
+            shutil.copyfile(self.Sim.Filename,newBaseFileName)
+            self.Sim.importSimulation(self.DB,self.User,self.logger)
+            if (self.Sim.error==1):  
+              result=self.Sim.errorMsg
+          
+        else:
+          sim = self.DB.getSimbyName(self.User,self.Sim.Name)
+          if (len(sim)==1): 
             self.simduplicated = next(iter(sim.items()))
             self.DB.deleteSimulation(self.User,self.simduplicated[0])
-            if (self.DB.error==1): return self.DB.errorMsg
+            if (self.DB.error==1): 
+              result=self.DB.errorMsg
 
-        # Import Simulation            
-        self.Sim.importSimulation(self.DB,self.User,self.logger)
-        if (self.Sim.error==1):  return self.Sim.errorMsg
+          # Import Simulation 
+          if ( result==""):           
+            self.Sim.importSimulation(self.DB,self.User,self.logger)
+            if (self.Sim.error==1):  
+              result=self.Sim.errorMsg
         
-        return ""
+        return result
   
 
     def cargaDatos(self):
@@ -101,7 +134,7 @@ class ssdm_import():
       Globals.initialize(1)
       # Arguments
         
-      parser=argparse.ArgumentParser(description='Usage[-d] -i=simfile -s=soft [-n]')
+      parser=argparse.ArgumentParser(description='Usage[-d] -i=simfile -s=soft ')
         
       parser.add_argument('-d', action="store_true", dest='debug',default=False,help='Modo debug')
       parser.add_argument('-i', action="store",dest='simulacion', nargs=1,help='-n no borra .DSY .THP .lis')

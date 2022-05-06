@@ -8,6 +8,7 @@ from random import random
 import threading
 import time
 import glob
+import io
 #import hashlib
 #from DBserver.usuarios import usuarios
 #from shutil import copy2
@@ -38,6 +39,20 @@ class SimFiles:
         rootDir = os.path.dirname(os.path.realpath(filename))
         return rootDir
 
+    @staticmethod
+    def mygrep(filename,pattern):
+      fileh=open(filename, "r")
+    
+      for line in fileh:
+        if not pattern in line:
+          continue
+        else:
+          fileh.close()
+          return line
+      
+      fileh.close()
+      return ""
+      
     def existStructure(self,source,structDir):
       result=True
       for dir in structDir:
@@ -163,7 +178,7 @@ class SimFiles:
         fileh=None
         self.error=0
         try:
-            fileh=open(filename,mode);
+            fileh=io.open(filename, encoding='latin-1');
         except:
             self.error=1
             self.errorMSG=sys.exc_info()[1].strerror;
